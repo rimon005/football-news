@@ -1,0 +1,152 @@
+/* RESPOSIBE FOR MOBLILE START */
+
+@media only screen and (max-width:576px)  {
+    .hero-area{
+        flex-direction: column;
+        width: 100%;
+        margin-left: 1em;
+        padding-left:0 ;
+        padding-bottom: 5em;
+    }
+    .frist-sec-info{
+        width: 100%;
+        text-align: center;
+        padding: 1.875em;
+    }
+    .frist-sec-info h1{
+        font-size: 1.5625em;
+        align-items: center;
+        line-height: 2em;
+        margin-bottom: 0;
+    }
+    .frist-sec-info p{
+        line-height: 1.7em;
+        padding-top: 1em;
+        font-size: 0.75em;
+        width: 200%;
+        padding-right: 100%;
+    }
+    .frist-sec-info a{
+        text-align: center;
+        padding: 1em 1em;
+        margin-left: -0.625em;
+        border-radius: 0.3em;
+    }
+    .hreo-area-banner{
+        width: 100%;
+    }
+    .hero-area img{
+        padding-top: 1.875em;
+        width: 75%;
+        margin-left: 1.875em;
+    }
+.our-blogs{
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+.button{
+    width: 100%;
+    background: #fff;
+    height: auto;
+    display:grid;
+    grid-template-columns: 1fr;
+}
+.button a{
+    border: 1px solid gray;
+}
+.articles-info{
+    display: grid;
+    width: 100%;
+    grid-template-columns:1fr;
+    margin-left: 12%;
+    padding-bottom: 50px;
+}
+.article-info{
+    width: 100%;
+}
+footer{
+    width:100%;
+}
+footer ul li {
+    padding-top: 2em;
+}
+}
+/* RESPOSIBE FOR MOBLILE END */
+
+
+/* RESPOSIBE FOR TAB START */
+@media Only screen and (min-width:577px) and (max-width:992px) {
+    .hero-area{
+        width: 100%;
+        margin-left: 1em;
+        padding-left:0 ;
+        padding-bottom: 5em;
+    }
+    .frist-sec-info{
+        width: 100%;
+        padding: 2em;
+    }
+   
+    .frist-sec-info h1{
+        padding-top: 2em;
+        font-size: 3em;
+        line-height: 4rem;
+    }
+    .frist-sec-info p{
+        line-height: 1.7em;
+        padding-top: 1em;
+        font-size:1.125em;
+        width: 200%;
+        padding-right: 100%;
+    }
+    .frist-sec-info a{
+        text-align: center;
+        padding: 1em 1em;
+        margin-left: -0.625em;
+        border-radius: 0.3em;
+    }
+    .hreo-area-banner{
+        width: 100%;
+    }
+    .hero-area img{
+        padding-top: 1.875em;
+        width: 90%;
+        margin-left: 1.875em;
+    }
+    .our-blogs{
+        display:block;
+        margin: 0;
+        padding: 0;
+    }
+    .button{
+        width: 100%;
+        background: #fff;
+        height: auto;
+        display:grid;
+        grid-template-columns:repeat(3, 1fr);
+        column-gap: 1em;
+    }
+    .button a{
+        border: 1px solid gray;
+    }
+    .articles-info{
+        display: grid;
+        width: 100%;
+        grid-template-columns:repeat(2, 1fr);
+        margin-left: 12%;
+        padding-bottom: 50px;
+    }
+    .article-info{
+        width: 100%;
+    }
+    footer{
+        width:100%;
+    }
+    footer ul li {
+        padding-top: 2em;
+    }
+    
+}
+
+/* RESPOSIBE FOR TAB START */
