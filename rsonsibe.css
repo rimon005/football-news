@@ -9,7 +9,6 @@
         width: 93%;
         margin-left: 1em;
         padding-left:0 ;
-        padding-bottom: 5em;
     }
     .frist-sec-info{
         width: 100%;
@@ -105,11 +104,10 @@ footer ul li {
         width: 96%;
         margin-left: 1em;
         padding-left:0 ;
-        padding-bottom: 5em;
     }
     .frist-sec-info{
         width: 100%;
-        padding: 2em;
+        padding:2em;
     }
    
     .frist-sec-info h1{
@@ -119,7 +117,7 @@ footer ul li {
     }
     .frist-sec-info p{
         line-height: 1.7em;
-        padding-top: 1em;
+        padding-top:0.625em;
         font-size:1.125em;
         width: 200%;
         padding-right: 100%;
