@@ -1,9 +1,12 @@
 /* RESPOSIBE FOR MOBLILE START */
 
 @media only screen and (max-width:576px)  {
+    main{
+        overflow: hidden;
+    }
     .hero-area{
         flex-direction: column;
-        width: 100%;
+        width: 93%;
         margin-left: 1em;
         padding-left:0 ;
         padding-bottom: 5em;
@@ -37,7 +40,7 @@
     }
     .hero-area img{
         padding-top: 1.875em;
-        width: 75%;
+        width: 90%;
         margin-left: 1.875em;
     }
 .our-blogs{
@@ -68,17 +71,38 @@
 footer{
     width:100%;
 }
-footer ul li {
-    padding-top: 2em;
+footer ul{
+    margin-top: -2em;
+    margin-left: 5em;
 }
+footer ul li {
+    padding-top: 1.5em;
+}
+/* Upcoming page style start  */
+.our-matches{
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+.our-match{
+    display: grid;
+    width: 100%;
+    grid-template-columns:1fr;
+    margin-left: 12%;
+    padding-bottom: 50px;
+}
+/* Upcoming page style end  */
 }
 /* RESPOSIBE FOR MOBLILE END */
 
 
 /* RESPOSIBE FOR TAB START */
 @media Only screen and (min-width:577px) and (max-width:992px) {
+    main{
+        overflow: hidden;
+    }
     .hero-area{
-        width: 100%;
+        width: 96%;
         margin-left: 1em;
         padding-left:0 ;
         padding-bottom: 5em;
@@ -115,6 +139,7 @@ footer ul li {
         margin-left: 1.875em;
     }
     .our-blogs{
+        width: 87%;
         display:block;
         margin: 0;
         padding: 0;
@@ -122,6 +147,7 @@ footer ul li {
     .button{
         width: 100%;
         background: #fff;
+        margin-left: 4em;
         height: auto;
         display:grid;
         grid-template-columns:repeat(3, 1fr);
@@ -137,8 +163,22 @@ footer ul li {
         margin-left: 12%;
         padding-bottom: 50px;
     }
+   .articles-img:nth-child(7){
+    display: none;
+   }
+   .articles-img:nth-child(8){
+    display: none;
+   }
+   .articles-img:nth-child(9){
+    display: none;
+   }
     .article-info{
         width: 100%;
+    }
+    .tab-button{
+        margin-left: 68%;
+        margin-top: 2em;
+        visibility: visible;
     }
     footer{
         width:100%;
@@ -146,7 +186,24 @@ footer ul li {
     footer ul li {
         padding-top: 2em;
     }
-    
+ /* Upcoming match page resposibe style start */
+.our-matches{
+    width: 87%;
+    display:block;
+    margin: 0;
+    padding: 0;
 }
+.button{
+    margin-left: 2.7em;
+}
+.our-match{
+    grid-template-columns: repeat(2, 1fr);
+    margin-bottom: 5em;
+}
+.match-info{
+    margin-left: 20%;
 
+}
+/* Upcoming match page resposibe style end */
+}
 /* RESPOSIBE FOR TAB START */
